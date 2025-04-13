@@ -194,7 +194,7 @@ const ProductList: React.FC = () => {
       {/* Product Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         {filteredProducts.map((product) => (
-          <div key={product.id} className="border rounded-lg p-4 shadow-md">
+          <div key={product.id} className="border-2 border-[#bdc9db] rounded-lg p-4 shadow-md">
             <img
               src={product.imageUrl}
               alt={product.name}

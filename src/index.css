@@ -6,13 +6,13 @@
 
 @font-face {
   font-family: 'comic shaans';
-  src: url('/public/comic-shanns.otf') format('opentype');
+  src: url('/public/PressStart2P-Regular.ttf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Press Start 2P', monospace;
   line-height: 1.5;
   font-weight: 400;
 
@@ -186,6 +186,6 @@ button:focus-visible {
   }
   body {
     @apply bg-background text-foreground;
-    font-family: 'comic shaans', sans-serif;
+    font-family: 'Press Start 2P', monospace;
   }
 }
