@@ -66,15 +66,15 @@ function Navbar() {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <div className="h-10 w-10 rounded-2xl flex items-center">
-                {/* {photoURL ? (
+                {photoURL ? (
                   <img
-                    className="rounded-full border-2 border-black"
-                    src={photoURL}
-                    alt="photoURL"
-                  />
-                ) : ( */}
-                <FaRegUserCircle className="h-8 w-8" />
-                {/* )} */}
+                  className="rounded-full border-2 border-black w-10 h-10 object-cover"
+                  src={photoURL}
+                  alt="User"
+                /> 
+                ) : (
+                <FaRegUserCircle className="h-8 w-8" />)
+              } 
               </div>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
